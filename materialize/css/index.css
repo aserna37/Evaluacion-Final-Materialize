@@ -1,0 +1,54 @@
+html{
+background: url(../img/body.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+background-color: transparent;
+opacity: 0.9;
+width: 100%;
+height: 100%;
+
+}
+
+body{
+
+background: blue;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+height: 20%;
+width: 100%;
+
+
+}
+
+
+
+
+#redes a{
+padding-top: 20px;
+text-align: center;	
+
+
+}
+
+.card img{
+margin-left:120px;
+}
+
+.menu{
+	z-index: 1;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	body{
+		margin-left: 1px;
+	}
+ 
+}
+
+	
+
+
